@@ -9,7 +9,7 @@ body {
     flex-direction: column;
     align-items: center;
     height: 200vh;
-    
+    margin-top: 30px;
     
 }
 .container div {
@@ -23,7 +23,8 @@ body {
 }
 
 .box1 {
-    position: absolute;
+    
+    position:static;
     top: 200px;
     left: 550px;
     text-align: left;
@@ -33,7 +34,7 @@ body {
     width: 400px;
 }
 .box2 {
-    position: absolute;
+    position: static;
     top: 560px;
     left: 550px;
     text-align: center;
@@ -76,16 +77,20 @@ input {
 
 
 h2 {
+    margin-top: 100px;
     color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     width:300px;
-    font-weight: 100;
-    position: absolute;
-    top: 140px;
-    left:650px;
+    
+    position: static;
+    
+    
+    
 }
 
 .topbox {
+display: flex;
+flex-direction:row;
 position: fixed;
 top: 0px;
 left: 0px;
@@ -96,17 +101,18 @@ text-align: left;
 
 }
 img {
+display: flex;
 margin: 5px;
 height:60px; 
 }
 
 .Tabs1 {
+    
     position: fixed;
-   
     right: 300px;
     font-family:Arial, Helvetica, sans-serif;
     height:75px;
-    
+    margin-left: 300px;
     background-color: #ffffff;
     
     width: 100px;
@@ -118,24 +124,7 @@ height:60px;
     cursor: pointer;
    
     }
-.Tabs1 {
-    position: fixed;
-   
-    left: 1200px;
-    font-family:Arial, Helvetica, sans-serif;
-    height:75px;
-    
-    background-color: #ffffff;
-    
-    width: 100px;
-    border: 0;
-    
-    color: #000000;
-    font-size: 20px;
-    
-    cursor: pointer;
-   
-    }
+
 .Tabs1:hover {
         
         background-color: #939393;
@@ -144,12 +133,12 @@ height:60px;
 .Tabs2 {
 position: fixed;
 
-left: 1300px;
+right:100px;
 font-family:Arial, Helvetica, sans-serif;
     height:75px;
     
     background-color: #ffffff;
-    
+    right:200px;
     width: 100px;
     border: 0;
     padding: 15px;
@@ -168,7 +157,7 @@ font-family:Arial, Helvetica, sans-serif;
 .Tabs3 {
     position: fixed;
     
-    left: 1400px;
+    right: 100px;
     font-family:Arial, Helvetica, sans-serif;
     height:75px;
     
