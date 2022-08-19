@@ -1,0 +1,190 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(54, 22, 170)
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200vh;
+    
+    
+}
+.container div {
+    
+    
+    
+    
+    
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.box1 {
+    position: absolute;
+    top: 200px;
+    left: 550px;
+    text-align: left;
+    padding: 20px ;
+    border-radius: 3px;
+    margin: 10px;
+    width: 400px;
+}
+.box2 {
+    position: absolute;
+    top: 560px;
+    left: 550px;
+    text-align: center;
+    padding: 20px ;
+    border-radius: 3px;
+    margin: 10px;
+    width: 400px;
+}
+.Signin {
+    font-family:Arial, Helvetica, sans-serif;
+    
+    
+    background-color: #328f5f;
+    
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #f0e6e6;
+    font-size: 17px;
+    
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+input {
+    font-family:Arial, Helvetica, sans-serif;
+  
+  background: #f2f2f2;
+  width: 100%;
+  
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 3px;
+  background-color: #d8d8d8;
+
+
+}
+
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    width:300px;
+    font-weight: 100;
+    position: absolute;
+    top: 140px;
+    left:650px;
+}
+
+.topbox {
+position: fixed;
+top: 0px;
+left: 0px;
+background-color:#ffffff ; 
+width: 1600px;
+height:75px;;
+text-align: left;
+
+}
+img {
+margin: 5px;
+height:60px; 
+}
+
+.Tabs1 {
+    position: fixed;
+   
+    right: 300px;
+    font-family:Arial, Helvetica, sans-serif;
+    height:75px;
+    
+    background-color: #ffffff;
+    
+    width: 100px;
+    border: 0;
+    padding: 15px;
+    color: #000000;
+    font-size: 20px;
+    
+    cursor: pointer;
+   
+    }
+.Tabs1 {
+    position: fixed;
+   
+    left: 1200px;
+    font-family:Arial, Helvetica, sans-serif;
+    height:75px;
+    
+    background-color: #ffffff;
+    
+    width: 100px;
+    border: 0;
+    
+    color: #000000;
+    font-size: 20px;
+    
+    cursor: pointer;
+   
+    }
+.Tabs1:hover {
+        
+        background-color: #939393;
+        
+        }
+.Tabs2 {
+position: fixed;
+
+left: 1300px;
+font-family:Arial, Helvetica, sans-serif;
+    height:75px;
+    
+    background-color: #ffffff;
+    
+    width: 100px;
+    border: 0;
+    padding: 15px;
+    color: #000000;
+    font-size: 20px;
+    
+    cursor: pointer;
+}
+
+.Tabs2:hover {
+        
+    background-color: #939393;
+    
+    }
+
+.Tabs3 {
+    position: fixed;
+    
+    left: 1400px;
+    font-family:Arial, Helvetica, sans-serif;
+    height:75px;
+    
+    background-color: #ffffff;
+    
+    width: 100px;
+    border: 0;
+    padding: 15px;
+    color: #000000;
+    font-size: 20px;
+    
+    cursor: pointer;
+    }
+
+.Tabs3:hover {
+        
+        background-color: #939393;
+        
+        }
